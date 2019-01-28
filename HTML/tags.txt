@@ -1,0 +1,18 @@
+- <br> : salt de linia dins d'un paragraph (<p>)
+- <hr> : crea una línia horitzontal
+- <ul> : defineix una llista no ordenada
+- <ol> : defineix una llisat ordenada alfabèctica o numèricament
+- <li> : defineix un element dins una llista ordenada (<ol>) o una llista desordenada(<ul>)
+- <strong> : ressalta una part d'un text
+- <b> : posa una part del text en negreta
+- <em> : emfatitza una part del text
+- <i> : posa en cursiva una part del text
+- <u> : subralla una part del text
+- <h1> : defineix un header amb mida màxima
+- <h6> : defineix un header amb mida mínima
+- <tr> : defineix una línia dins una taula
+- <th> : defineix una cela header (conté la informació del header)
+- <td> : defineix una cela standard (conté dades)
+- <sub> : defineix una part del text subcrita (com el 2 de H2O)
+- <sup> : defineix una part del text superescrita (com el 2 d'una potència)
+- <legend> : defineix un típus <fieldset>, que és un grup d'elements relacionats
