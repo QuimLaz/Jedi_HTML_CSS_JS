@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> </title>
+</head>
+	<body>
+			<h1> Register </h1>
+			<form action="/form.js">
+				Username: <input type="Username" name="usr" placeholder="username">
+				<br>
+				<br>
+				Password: <input type="password" name="pass" placeholder="your password here">
+				<br>
+				<br>
+				<fieldset>
+					<legend> Dades de Contacte </legend>
+					Email: <input type="email" name="email" placeholder="your@email.com">
+					<br>
+					<br>
+					Tèlefon <input type="string" name="telf" placeholder="111222333">
+					<br>
+					<br>
+				</fieldset>
+				<br>
+				<br>
+
+				<fieldset>
+					<legend> Dades personals </legend>
+					Gènere:
+					<br>
+					<label for="home"> Home: </label>
+					<input type="radio" name="genere" value="home" id="home">
+					<br>
+					<label for="dona"> Dona: </label>
+					<input type="radio" name="genere" value="dona" id="dona">
+					<br>
+					<label for="altres" checked> Altres: </label>
+					<input type="radio" name="gender" value="other" id=”other”>
+					<br>
+					<br>
+					Edat <input type="number" name="edat" placeholder="0">
+					<br>
+					<br>
+					Interessos:
+					<input list="interessos" name="inter">
+					<datalist id="interessos">
+						<option value="Medi Ambient"> </option>
+						<option value="Xarxa Social"> </option>
+						<option value="Territori"> </option>
+						<option value="Governança"> </option>
+						<option value="Economia"> </option>
+						<option value="Joventut"> </option>
+					</datalist>
+					<br>
+				</fieldset>
+				<br>
+				<br>
+				<input type="checkbox" name="consentiment" value="NB"> Vols que t'enviem mails per a mantenir-te informada?
+				<br>
+				<br>
+				<input type="submit" value="Envia">
+			</form>
+	</body>
+</html>
