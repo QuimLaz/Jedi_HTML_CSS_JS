@@ -1,0 +1,1 @@
+El normalize CSS és important, ja que té en compte les sheets per defecte del browser que estiguis fent servir i normaltza els estils de les web peruqe es vegin de la manera que s'espora sigui quin sigui el browser que s'utilitzi. D'aquesta manra ens estalviarem mal de caps alhora de normalitzar nosaltres.
