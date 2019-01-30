@@ -1,0 +1,62 @@
+Which selector do we need?
+
+a) To get the <p> 
+
+<div>
+<p> </p>
+</div>
+
+Selector: div > p
+
+b) To get the first <p>
+ 
+<div class="first">
+<p class="first"> </p>
+<p> </p>
+</div>
+
+Selector: div.first > p.first
+
+c) To get the middle <li>
+
+<ul>
+<li>
+<li>
+<li>
+</ul>
+
+Selector: ul > li:nth.child(2)
+
+d) To get all <p> inside <div>
+
+<div>
+<p> </p>
+<form>
+<p> </p>
+</form>
+</div>
+<p>
+
+Selector: div > p
+
+e) To get the deepest <p>
+
+<div class="second">
+<p id="first" class="second third">
+<p class="second third">
+<p class="third"> </p>
+</p>
+</p>
+<div>
+
+Selector: p:last-child
+
+Bonus: is anything wrong here?
+
+<p id="first text">
+<p id="second text">
+<p id="third text"></p>
+</p>
+</p>
+
+Selector: No pots tenir un paràgraf dins un altre paràgraf
