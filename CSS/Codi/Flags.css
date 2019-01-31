@@ -1,0 +1,96 @@
+#blauXile {
+	height: 50px;
+	width: 50px;
+	background-color: blue;
+	position: absolute;
+}
+
+#blancXile {
+	height: 50px;
+	width: 150px;
+	background-color: white;
+}
+
+#vermellXile {
+	height: 50px;
+	width: 150px;
+	background-color: red;
+}
+
+#grocColombia {
+	height: 50px;
+	width: 150px;
+	background-color: yellow;
+}
+
+#blauColombia {
+	height: 25px;
+	width: 150px;
+	background-color: blue;
+}
+
+#vermellColombia {
+	height: 25px;
+	width: 150px;
+	background-color: red;
+}
+
+#RepublicaDominicana {
+	height: 90px;
+	width: 80px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#blauTopRepublicaDominicana {
+	height: 40px;
+	width: 35px;
+	background-color: blue;
+	align-self: flex-start;
+}
+
+#blancTopRepublicaDominicana {
+	height: 40px;
+	width: 10px;
+	background-color: white;
+	align-self: center;
+}
+
+#vermellTopRepublicaDominicana {
+	height: 40px;
+	width: 35px;
+	background-color: red;
+	align-self: flex-end;
+}
+
+#blancCentreRepublicaDominicana {
+	height: 10px;
+	width: 80px;
+	background-color: white;
+	align-self: flex-start;
+}
+
+#vermellBottomRepublicaDominicana {
+	height: 40px;
+	width: 35px;
+	background-color: red;
+	align-self: flex-start;
+}
+
+#blancBottomRepublicaDominicana {
+	height: 40px;
+	width: 10px;
+	background-color: white;
+	align-self: center;
+}
+
+#blauBottomRepublicaDominicana {
+	height: 40px;
+	width: 35px;
+	background-color: blue;
+	align-self: flex-end;
+}
+
+body {
+	background-color: black;
+}
