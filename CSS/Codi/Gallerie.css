@@ -10,3 +10,19 @@
 .imatge {
 	border: 3px solid black;
 }
+
+.imatge:hover {
+	animation-name: rotate; 
+    animation-duration: 0.3s; 
+  	animation-iteration-count: 5;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate {
+    from {
+    	transform: rotate(0deg);
+	}
+    to {
+    	transform: rotate(360deg);
+    }
+}
