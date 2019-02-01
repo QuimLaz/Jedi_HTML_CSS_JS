@@ -6,13 +6,8 @@
 }
 
 #diffenentFont {
-    font-family: myFont;
+    font-family: Arial;
     text-shadow: 4px 4px 4px #aaa;
-}
-
-@font-face {
-    font-family: myFont;
-  src: url(//fonts.googleapis.com/css?family=Open+Sans);
 }
 
 #aLotOfSpace {
