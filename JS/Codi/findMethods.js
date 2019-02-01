@@ -5,5 +5,4 @@ function write() {
 	document.getElementsByClassName("second")[0].innerHTML = "SECOND";
 	document.getElementsByClassName("second")[1].innerHTML = "SECOND";
 	document.getElementsByTagName("div")[3].innerHTML = "THIRD";
-
 }

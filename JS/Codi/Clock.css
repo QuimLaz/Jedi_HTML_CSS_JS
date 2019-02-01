@@ -1,0 +1,11 @@
+#panell {
+	height: 100px;
+	width: 300px;
+	background-color: grey;
+	border: 5px, solid black
+	font-family: Arial;
+	font-size: 70px;
+	position: relative;
+    left: 30%;
+    margin-top: 22%;
+}
