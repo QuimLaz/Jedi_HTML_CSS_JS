@@ -35,60 +35,67 @@
 	background-color: red;
 }
 
-#RepublicaDominicana {
-	height: 90px;
-	width: 80px;
+#RepublicaDominicanaTOP {
+	height: 40px;
+	width: 120px;
 	display: flex;
-	justify-content: flex-end;
 }
 
 #blauTopRepublicaDominicana {
 	height: 40px;
-	width: 35px;
+	width: 55px;
 	background-color: blue;
-	align-self: flex-start;
+	order: -1;
 }
 
 #blancTopRepublicaDominicana {
 	height: 40px;
 	width: 10px;
 	background-color: white;
-	align-self: center;
 }
 
 #vermellTopRepublicaDominicana {
 	height: 40px;
-	width: 35px;
+	width: 55px;
 	background-color: red;
-	align-self: flex-end;
+	order: 1;
+}
+
+#RepublicaDominicanaCENTER {
+	height: 10px;
+	width: 120px;
 }
 
 #blancCentreRepublicaDominicana {
 	height: 10px;
-	width: 80px;
+	width: 120px;
 	background-color: white;
-	align-self: flex-start;
+}
+
+#RepublicaDominicanaBOT {
+	height: 40px;
+	width: 120px;
+	display: flex;
 }
 
 #vermellBottomRepublicaDominicana {
 	height: 40px;
-	width: 35px;
+	width: 55px;
 	background-color: red;
-	align-self: flex-start;
+	order: -1;
 }
 
 #blancBottomRepublicaDominicana {
 	height: 40px;
 	width: 10px;
 	background-color: white;
-	align-self: center;
 }
 
 #blauBottomRepublicaDominicana {
 	height: 40px;
-	width: 35px;
+	width: 55px;
 	background-color: blue;
-	align-self: flex-end;
+	order: 1;
 }
 
 body {
