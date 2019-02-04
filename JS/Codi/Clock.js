@@ -1,4 +1,4 @@
-	window.onload = function() {
+window.onload = function() {
 	window.setInterval(update, 1000);
 }
 
