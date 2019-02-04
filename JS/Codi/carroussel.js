@@ -2,19 +2,44 @@ window.onload = function() {
 	window.setInterval(update, 2000);
 }
 
-var i = 1;
+var i = 0;
+var aux = 0;
+
+function showRed() {
+	document.getElementById("panell").src = "../Imatges/red.png";
+}
+
+function showBlue() {
+	document.getElementById("panell").src = "../Imatges/blue.png";
+}
+
+function showGreen() {
+	document.getElementById("panell").src = "../Imatges/green.png";
+}
+
 
 function update() {
-	if (i === 0) {
-		document.getElementById("panell").src = "../Imatges/red.png";
-		i++;
+	i++;
+	aux=i%3;
+	if (aux === 0) {
+		showRed();
 	}
-	else if (i === 1) {
-		document.getElementById("panell").src = "../Imatges/blue.png";
-		i++;
-	}
+	else if (aux === 1) {
+		showBlue();
+	} 
 	else {
-		document.getElementById("panell").src = "../Imatges/green.png";
-		i = 0;
+		showGreen();
 	}
+}
+
+function goLeft() {
+	i--;
+	aux=i%3;
+	if (aux === 0) {
+		showGreen();
+	}
+	else if (aux === 1) {
+		showRed();
+	}
+	else showBlue();
 }
