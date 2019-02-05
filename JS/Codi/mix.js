@@ -58,8 +58,8 @@ function updateTime() {
 }
 
 function writeInput() {
-	var name = document.getElementById("nom").value;
-	if (name != null) {
-		document.getElementById("Missatge").innerHTML = "Hola " + name + ", com està vosté?";
+	var text = document.getElementById("inputText").value;
+	if (text != null) {
+		document.getElementById("missatge").innerHTML = "Hola " + text;
 	}
 }

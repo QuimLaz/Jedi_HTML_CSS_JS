@@ -1,0 +1,30 @@
+head, body {
+	height: 100vh;
+}
+
+nav {
+	ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+	&:hover { display: inline-block; }
+	#main {
+	display: block;
+	padding: 6px 12px;
+	text-decoration: none;
+	}
+}
+
+%message-shared {
+	border: 1px solid #ccc;
+	padding: 10px;
+	color: #333;
+	}
+	.message {
+	@extend %message-shared;
+	}
+	.success {
+	@extend %message-shared;
+	border-color: green;
+}

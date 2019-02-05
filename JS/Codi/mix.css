@@ -1,3 +1,45 @@
-footer {
-	color: yellow;
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+header, footer {
+	height: 10%;
+	width: 100%;
+	overflow: hidden;
+}
+
+main {
+	height: 80%;
+	width: 100%;
+	overflow: hidden;
+}
+
+header {
+	position: flex;
+	align-items: flex-end;
+}
+
+#carroussel {
+	height: 10%;
+	width: 100%;
+	position: absolute;
+}
+
+#clock {
+	height: 100%;
+	width: 10%;
+	font-family: Arial;
+	color: white;
+	font-size: 300%;
+	position: relative;
+	float: right;
+}
+
+#bot {
+	background-color: darkblue;
+	width: 100%;
+	height: 100%;
 }
