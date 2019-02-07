@@ -1,0 +1,30 @@
+#rotator {
+	background-color: cyan;
+	height: 200px;
+	width: 300px;
+}
+
+#sizeChanger {
+	background-color: yellow;
+	height: 200px;
+	width: 300px;
+}
+
+#base {
+	display: flex;
+	align-items: flex-start;
+	width: 500px;
+}
+
+#circular {
+	background-color: red;
+	height: 150px;
+	width: 150px;
+	border-radius: 100px;
+}
+
+#fade {
+	background-color: green;
+	height: 200px;
+	width: 300px;
+}
